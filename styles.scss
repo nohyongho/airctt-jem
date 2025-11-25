@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+a, a:hover{
+    text-decoration: none;
+}
+
+div,ul,a,p,h1,h2,h3,h4,h5,h6,span {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}

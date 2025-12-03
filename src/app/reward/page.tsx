@@ -21,8 +21,9 @@ export default function RewardPage() {
                 }
             }
 
-            if (data?.type === 'REWARD') {
-                setReward(data.data || 'Special Coupon');
+            const payload = data as { type?: string; data?: string };
+            if (payload?.type === 'REWARD') {
+                setReward(payload.data || 'Special Coupon');
                 setShowConfetti(true);
             }
         };

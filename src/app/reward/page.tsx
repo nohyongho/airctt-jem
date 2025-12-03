@@ -8,7 +8,7 @@ export default function RewardPage() {
 
     useEffect(() => {
         // Define the handler
-        const handleUnityMessage = (message: any) => {
+        const handleUnityMessage = (message: unknown) => {
             console.log('Received Unity Message:', message);
 
             // Parse if it's a string (common in some WebView implementations)

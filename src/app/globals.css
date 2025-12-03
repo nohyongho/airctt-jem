@@ -1,8 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #0f172a; /* Slate 900 */
-  --foreground: #22ff88; /* Neon Green */
+  --background: #0f172a;
+  /* Slate 900 */
+  --foreground: #22ff88;
+  /* Neon Green */
   --led-green: #22ff88;
   --led-green-dim: rgba(34, 255, 136, 0.1);
 }
